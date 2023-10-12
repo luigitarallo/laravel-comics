@@ -10,7 +10,10 @@
 </head>
 <body>
     <header></header>
-    <main>@yield('main-content')</main>
+    <main>
+        @yield('jumbotron')
+        @yield('main-content')
+    </main>
     <footer></footer>
 </body>
 </html>

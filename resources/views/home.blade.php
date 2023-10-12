@@ -2,6 +2,12 @@
 
 @section('page-title','Homepage')
 
+@section('jumbotron')
+
+    <img src="{{url('/img/jumbotron.jpg')}}" alt="">
+
+@endsection
+
 @section('main-content')
 <section class="container">
     <div class="row row-cols-6 g-3">
@@ -10,7 +16,7 @@
             <div class="comic-img">
                 <img src="{{$comic['thumb']}}" alt="" class="img-fluid">
             </div>
-            <p>{{$comic['title']}}</p>
+            <p>{{$comic['series']}}</p>
         </div>
             
         @endforeach
