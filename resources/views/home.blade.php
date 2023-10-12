@@ -3,9 +3,9 @@
 @section('page-title','Homepage')
 
 @section('jumbotron')
-
-    <img src="{{url('/img/jumbotron.jpg')}}" alt="">
-
+<div>
+    <img src="{{ url('/img/jumbotron.jpg') }}" alt="Jumbotron">
+</div>
 @endsection
 
 @section('main-content')
@@ -18,11 +18,9 @@
             </div>
             <p>{{$comic['series']}}</p>
         </div>
-            
         @endforeach
-
     </div>
 </section>
-
 @endsection
+
 
