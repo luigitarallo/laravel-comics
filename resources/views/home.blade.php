@@ -3,8 +3,8 @@
 @section('page-title','Homepage')
 
 @section('jumbotron')
-<div>
-    <img src="{{ url('/img/jumbotron.jpg') }}" alt="Jumbotron">
+<div class="jumbotron">
+    <img src="{{Vite::asset('public/img/jumbotron.jpg')}}" alt="Jumbotron">
 </div>
 @endsection
 
