@@ -9,11 +9,13 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <header></header>
+    <header class="bg-light">
+        @include('partials.navbar')
+    </header>
     <main>
         @yield('jumbotron')
         @yield('main-content')
     </main>
-    <footer></footer>
+   @include('partials.footer')
 </body>
 </html>

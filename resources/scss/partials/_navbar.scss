@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        list-style: none;
+        li {
+            margin-right: 2rem;
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}
